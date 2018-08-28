@@ -1,0 +1,17 @@
+{
+  "name": "repro-dual-style-load",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@microsoft/loader-load-themed-styles": "^1.7.64",
+    "css-loader": "0.28.11",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "scripts": {
+    "start": "webpack"
+  }
+}

@@ -1,0 +1,7 @@
+@import (reference) "./global.module.less";
+@global: "./global.module.less";
+
+.ComponentA {
+    composes: block from @global;
+    background-color: rgb(131, 69, 69);
+}
